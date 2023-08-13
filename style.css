@@ -26,13 +26,6 @@ h2 {
   padding: center;
 }
 
-/* h1 style for header => coursera menu */
-h1 {
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 /* section styles for our boxes  */
 .section {
   clear: margine;
