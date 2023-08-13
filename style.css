@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  body {
+  font-family: monospace, sans-serif;
+  font-size: 100%;
+}
+
+/* h2 style for menu include region position and other property like size and etc */
+h2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: auto;
+  float: none;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #63474D;
+  text-align: center;
+  padding: center;
+}
+
+/* h1 style for header => coursera menu */
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* section styles for our boxes  */
+.section {
+  clear: margine;
+  position: relative;
+  color: #2E4057;
+  background-color: #F6D8AE;
+  padding: 10px;
+  padding-top: 45px;
+  font-size: 100%;
+  border: 2px solid #437F97;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+/* menu color and background */
+.beef {
+  background-color: #FFB30F;
+  color: #FD151B;
+}
+
+.chicken {
+  background-color: #A7E2E3;
+  color: #040303;
+}
+
+.shushi {
+  background-color: #282B28;
+  color: #83BCA9;
+}
+/* media queries for renponsive page */
+
+/* for large devices */
+@media (min-width: 992px) {
+  .large-screen {
+    float: left;
+    margin: auto;
+  }
+  .large-screen {
+    width: 33.33%;
+  }
+}
+
+/* for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .medium-screen,
+  .medium-screen2 {
+    float: left;
+    margin: auto;
+  }
+
+  .medium-screen {
+    width: 8.33%;
+  }
+  .medium-screen {
+    width: 50%;
+  }
+
+  .medium-screen2 {
+    width: 100%;
+  }
+}
+
+/* for small devices */
+@media (max-width: 767px) {
+  .small-screen{
+    float: left;
+    margin: auto;
+  }
+
+  .small-screen{
+    width: 100%;
+  }
+}
