@@ -1,2 +1,2 @@
 # coursera-module2
-Peered graded assignment
+Peer-graded Assignment: Module 2 Coding Assignment
